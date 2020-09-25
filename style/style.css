@@ -464,6 +464,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 75vh;
+    margin-top: 3%;
   }
   .card-section .card {
     width: 75%;

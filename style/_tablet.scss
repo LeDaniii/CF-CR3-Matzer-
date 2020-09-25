@@ -60,6 +60,7 @@
   .card-section {
     @include flex(space-around, center, column);
     height: 75vh;
+    margin-top: 3%;
     .card {
       width: 75%;
       margin: 2%;
