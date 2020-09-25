@@ -1,3 +1,56 @@
+.hero {
+  height: 90%;
+}
+
+.hero .background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 90vh;
+}
+
+.hero .background .hero-img {
+  height: 75%;
+  width: 100%;
+  background-image: url(../img/traffic-332857_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .background .hero-img h1 {
+  color: white;
+  font-size: 3rem;
+  margin: 4% 0 2% 3%;
+}
+
+.hero .background .hero-text {
+  width: 100%;
+  text-align: center;
+  background: #cecece;
+}
+
+.hero .background .hero-text h1 {
+  font-size: 2.5rem;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.hero .background p {
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+
 .head {
   display: -webkit-box;
   display: -ms-flexbox;
