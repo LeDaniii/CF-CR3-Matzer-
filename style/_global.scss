@@ -10,3 +10,14 @@
 a {
   color: white;
 }
+
+// ----- Global Button -----
+
+@mixin globalBtn($background, $color, $radius) {
+  border: none;
+  background: $background;
+  color: $color;
+  border-radius: $radius;
+  padding: 1rem;
+  font-size: 1.8rem;
+}

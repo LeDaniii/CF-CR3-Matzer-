@@ -34,6 +34,111 @@
   margin: 4% 0 2% 3%;
 }
 
+.hero .background .hero-img .validator {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(255, 255, 255, 0.7);
+  width: 80%;
+  height: 90%;
+  border: 3px solid grey;
+  margin: auto;
+}
+
+.hero .background .hero-img .validator h2 {
+  margin-top: 4%;
+  font-size: 3rem;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.hero .background .hero-img .validator .calculator-input {
+  width: 100%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hero .background .hero-img .validator .form-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 40%;
+  padding: 0 4%;
+  margin: 0 4%;
+}
+
+.hero .background .hero-img .validator .form-control label {
+  font-size: 1.3rem;
+}
+
+.hero .background .hero-img .validator .form-control input {
+  width: 100%;
+  height: 3rem;
+}
+
+.hero .background .hero-img .validator .form-control select {
+  width: 100%;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.hero .background .hero-img .validator .form-control select option {
+  font-size: 1.5rem;
+}
+
+.hero .background .hero-img .validator .button {
+  border: none;
+  background: #1a9457;
+  color: white;
+  border-radius: 15px;
+  padding: 0.5rem;
+  font-size: 2.3rem;
+  cursor: pointer;
+  width: 35%;
+}
+
+.hero .background .hero-img .validator p {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  color: #1a9457;
+  text-align: center;
+}
+
 .hero .background .hero-text {
   width: 100%;
   text-align: center;
