@@ -130,13 +130,15 @@
   font-size: 2.3rem;
   cursor: pointer;
   width: 35%;
+  margin-top: 3%;
 }
 
 .hero .background .hero-img .validator p {
   font-size: 2.5rem;
-  margin-top: 3rem;
+  margin-top: 4%;
   color: #1a9457;
   text-align: center;
+  cursor: pointer;
 }
 
 .hero .background .hero-text {

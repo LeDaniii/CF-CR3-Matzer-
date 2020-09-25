@@ -61,12 +61,14 @@
         .button {
           @include globalBtn(rgb(26, 148, 87), white, 15px);
           width: 35%;
+          margin-top: 3%;
         }
         p {
           font-size: 2.5rem;
-          margin-top: 3rem;
+          margin-top: 4%;
           color: rgb(26, 148, 87);
           text-align: center;
+          cursor: pointer;
         }
       }
     }
