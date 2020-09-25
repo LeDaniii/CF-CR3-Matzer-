@@ -16,9 +16,9 @@ nav {
     @include flex(flex-start, center, row);
     font-size: 1.8rem;
     list-style: none;
-    margin: 0.4rem 0;
+    margin: 0.4rem;
     a {
-      padding: 0.5rem 0rem 0.5rem 2rem;
+      padding: 0.5rem 2rem 0.5rem 2rem;
     }
   }
 }
