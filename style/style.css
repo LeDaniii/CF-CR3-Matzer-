@@ -220,6 +220,63 @@ nav ul a {
   padding: 0.5rem 0rem 0.5rem 2rem;
 }
 
+.card-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 50vh;
+}
+
+.card-section .card {
+  width: 40%;
+  height: 60%;
+  padding: 2.5%;
+  -webkit-box-shadow: 0px -2px 4px black;
+          box-shadow: 0px -2px 4px black;
+}
+
+.card-section .card .card-head {
+  margin-bottom: 0.8rem;
+}
+
+.card-section .card .card-head h3 {
+  font-weight: lighter;
+  color: darkblue;
+  font-size: 1.3rem;
+}
+
+.card-section .card .card-list p {
+  margin-top: 4%;
+}
+
+.card-section .card .card-list span {
+  color: #1a9457;
+  margin-right: 3%;
+}
+
+.card-section .card hr {
+  margin: 8% 0;
+  border: 1px solid gray;
+}
+
+.card-section .card .card-end p {
+  color: gray;
+}
+
+.card-section .card .card-end p sup {
+  font-size: 0.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
