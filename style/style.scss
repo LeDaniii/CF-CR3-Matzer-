@@ -1,0 +1,16 @@
+// ------ FlexBox for faster writing -----
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+// ------ Import Sass ------
+@import "./hero";
+@import "./nav";
+@import "./card";
+@import "./footer";
+@import "./global";
+@import "./mobile";
+@import "./tablet";

@@ -1,0 +1,24 @@
+// --------- Header above the Navbar ---------
+.head {
+  @include flex(space-between, center, row);
+  background: #fdebeb;
+  img {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+// --------- Navbar ---------
+nav {
+  @include flex(flex-start, center, row);
+  background: #8e1616;
+  ul {
+    @include flex(flex-start, center, row);
+    font-size: 1.8rem;
+    list-style: none;
+    margin: 0.4rem 0;
+    a {
+      padding: 0.5rem 0rem 0.5rem 2rem;
+    }
+  }
+}
