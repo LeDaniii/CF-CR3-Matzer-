@@ -18,13 +18,13 @@ function calculateInsurance() {
   let power = parseInt(document.getElementById("horsepower").value);
   let country = document.getElementById("country").value;
   if (country === "austria") {
-    let insurance = (power * 100) / age + 50;
+    let insurance = Math.round((power * 100) / age + 50);
     cost.innerHTML = `${name}, your insurance costs ${insurance}€`;
   } else if (country === "hungary") {
-    let insurance = (power * 120) / age + 100;
+    let insurance = Math.round((power * 120) / age + 100);
     cost.innerHTML = `${name}, your insurance costs ${insurance}€`;
   } else if (country === "greece") {
-    let insurance = (power * 150) / (age + 3) + 50;
+    let insurance = Math.round((power * 150) / (age + 3) + 50);
     cost.innerHTML = `${name}, your insurance costs ${insurance}€`;
   }
 }
