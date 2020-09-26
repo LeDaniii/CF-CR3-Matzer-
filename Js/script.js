@@ -1,4 +1,5 @@
 // --------- fetching from html ---------
+// this is here because i had an idea but the time was running out
 let name = document.getElementById("yourName").value;
 let age = document.getElementById("age").value;
 let power = document.getElementById("horsepower").value;

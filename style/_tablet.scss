@@ -1,3 +1,4 @@
+// -------- Media Querry (Tablet) for both Pages -------
 @media (max-width: 820px) and (min-width: 480px) {
   .hero {
     .background {
@@ -56,6 +57,8 @@
   }
 }
 
+// --------- Main Page Card Section -------
+
 @media (max-width: 820px) and (min-width: 480px) {
   .card-section {
     @include flex(space-around, center, column);
@@ -64,6 +67,17 @@
     .card {
       width: 75%;
       margin: 2%;
+    }
+  }
+}
+
+// --------- Team Page Card Section --------
+@media (max-width: 1070px) and (min-width: 480px) {
+  .team {
+    .member-card {
+      &:hover {
+        width: 100%;
+      }
     }
   }
 }

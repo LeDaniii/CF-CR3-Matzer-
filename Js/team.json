@@ -2,16 +2,43 @@ var teamMembers = `[
     {
         "name": "Fran",
         "email": "fran@index.com",
-        "image": "../img/placeholder1.png"
+        "image": "../img/placeholder1.png",
+        "profession": "customer Service",
+        "drives": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus. Mauris ut suscipit quam. In est turpis, luctus non est quis, dictum porta lectus. Suspendisse congue vel turpis vel molestie. Morbi at arcu lorem. Fusce nec ex leo. Sed ultrices augue non vulputate pretium."
     },
     {
-        "name": "Bill",
-        "email": "bill@index.com",
-        "image": "../img/placeholder2.jpg"
+        "name": "Ko",
+        "email": "ko@index.com",
+        "image": "../img/placeholder2.jpg",
+        "profession": "Press",
+        "drives": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus. Mauris ut suscipit quam. In est turpis, luctus non est quis, dictum porta lectus. Suspendisse congue vel turpis vel molestie. Morbi at arcu lorem. Fusce nec ex leo. Sed ultrices augue non vulputate pretium."
     },
     {
-        "name": "Fritz",
-        "email": "fritz@index.com",
-        "image": "../img/placeholder3.png"
+        "name": "Umiko",
+        "email": "umiko@index.com",
+        "image": "../img/placeholder2.jpg",
+        "profession": "CEO",
+        "drives": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus. Mauris ut suscipit quam. In est turpis, luctus non est quis, dictum porta lectus. Suspendisse congue vel turpis vel molestie. Morbi at arcu lorem. Fusce nec ex leo. Sed ultrices augue non vulputate pretium."
+    },
+    {
+        "name": "Hifimu",
+        "email": "hifimu@index.com",
+        "image": "../img/placeholder2.jpg",
+        "profession": "customer Service",
+        "drives": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus. Mauris ut suscipit quam. In est turpis, luctus non est quis, dictum porta lectus. Suspendisse congue vel turpis vel molestie. Morbi at arcu lorem. Fusce nec ex leo. Sed ultrices augue non vulputate pretium."
+    },
+    {
+        "name": "Aoba",
+        "email": "aoba@index.com",
+        "image": "../img/placeholder2.jpg",
+        "profession": "Lawyer",
+        "drives": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus. Mauris ut suscipit quam. In est turpis, luctus non est quis, dictum porta lectus. Suspendisse congue vel turpis vel molestie. Morbi at arcu lorem. Fusce nec ex leo. Sed ultrices augue non vulputate pretium."
+    },
+    {
+        "name": "Hajime",
+        "email": "hajime@index.com",
+        "image": "../img/placeholder3.png",
+        "profession": "Lawyer",
+        "drives": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, mi eget ullamcorper viverra, ex ante dapibus lacus, quis consectetur felis nibh id tellus. Mauris ut suscipit quam. In est turpis, luctus non est quis, dictum porta lectus. Suspendisse congue vel turpis vel molestie. Morbi at arcu lorem. Fusce nec ex leo. Sed ultrices augue non vulputate pretium."
     }
 ]`;
