@@ -1,6 +1,3 @@
-// const memberName = document.getElementById("member-name");
-// const email = document.getElementById("email");
-
 var teamJson = JSON.parse(teamMembers);
 console.table(teamJson);
 
